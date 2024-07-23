@@ -131,4 +131,85 @@ print(f'Accuracy: {accuracy * 100:.2f}%')
 7. Conclusion
 
 Support Vector Machines are a powerful tool for classification and regression tasks, especially in high-dimensional spaces. Understanding the mathematical foundation helps in effectively applying SVM to various real-world problems. Despite some disadvantages, such as computational cost and the need for kernel selection, SVMs remain a popular choice due to their flexibility and robustness.
-  
+
+
+
+
+### What Does It Mean for Data to Be Not Linearly Separable?
+
+When we say data is not linearly separable, we mean that no single straight line (in 2D), plane (in 3D), or hyperplane (in higher dimensions) can separate the classes of data points perfectly. In other words, you cannot draw a straight boundary that divides the data points of different classes without some points being misclassified.
+
+### Example
+
+Consider a simple 2D example with two classes of data points, represented by red circles and blue squares.
+
+#### Linearly Separable Data
+
+In this case, you can draw a straight line that completely separates the two classes.
+
+```
+Class 1 (Red Circles): O
+Class 2 (Blue Squares): X
+
+  X  X  X
+ O  O  O
+```
+
+You can draw a line between the red circles and blue squares such that all the red circles are on one side and all the blue squares are on the other.
+
+#### Not Linearly Separable Data
+
+In this case, no matter how you try to draw a straight line, you cannot separate the two classes without some points being misclassified.
+
+```
+Class 1 (Red Circles): O
+Class 2 (Blue Squares): X
+
+    O
+ X     O
+    X
+ O     X
+    O
+```
+
+Here, you cannot draw a straight line that separates all red circles from all blue squares without some overlap.
+
+### Visual Representation
+
+To better understand, consider these plots:
+
+#### Linearly Separable
+```
+   X  X  X
+-----------
+ O  O  O
+```
+
+#### Not Linearly Separable
+```
+    O
+ X     O
+    X
+ O     X
+    O
+```
+
+### Real-World Example
+
+Imagine a dataset of animals where each point represents an animal's height and weight. Suppose you have two classes: Cats (C) and Dogs (D).
+
+- **Linearly Separable**: If all cats are generally lighter and shorter, and all dogs are heavier and taller, a straight line might separate them.
+- **Not Linearly Separable**: If some small dogs have similar height and weight as some large cats, you cannot draw a single straight line to separate all cats from all dogs.
+
+### Dealing with Non-Linearly Separable Data
+
+When data is not linearly separable, SVM can use the **kernel trick** to map the data into a higher-dimensional space where it might become linearly separable. Common kernels include:
+
+- **Polynomial Kernel**: Allows for curved decision boundaries.
+- **RBF (Radial Basis Function) Kernel**: Maps the data into a higher-dimensional space to handle complex boundaries.
+
+By transforming the data, SVM can find a hyperplane in this new space that separates the classes more effectively.
+
+### Conclusion
+
+When data is not linearly separable, it means that a straight line (or its higher-dimensional equivalent) cannot divide the classes without errors. Using kernel functions, SVM can handle such scenarios by transforming the data into a space where a linear separator can work.
