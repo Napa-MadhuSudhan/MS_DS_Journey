@@ -1,7 +1,7 @@
 ### MS Excel offers a wide range of functionalities for end-to-end data analysis, from data import to visualization and reporting.
 Here's a breakdown of the key features and steps involved in performing data analysis using Excel:
 
-** 1. Data Import & Cleaning **
+**1. Data Import & Cleaning**
 
 Data Import:
 - Import data from various sources like CSV, TSV, Excel files, databases, or online data sources. Use Power Query to connect, transform, and combine data from multiple sources.
@@ -13,7 +13,7 @@ Data Validation: Ensure data integrity by setting validation rules.
 - Flash Fill: Automatically fill in data based on a pattern.
 - Trim, Clean, and Substitute: Functions for removing extra spaces, cleaning up non-printable characters, or substituting specific data.
 
-** 2. Data Transformation ** 
+**2. Data Transformation** 
 
 Formulas and Functions:
 
@@ -26,7 +26,7 @@ Power Query Editor:
 
 - Use Power Query to reshape, transform, and clean data through an intuitive interface. This includes filtering rows, pivoting/unpivoting data, and merging/joining datasets.
 
-** 3. Data Analysis **
+**3. Data Analysis**
 
 Pivot Tables:
 
@@ -46,7 +46,7 @@ Statistical Analysis:
 - Use built-in statistical functions like AVERAGEIF, COUNTIF, STDEV, VAR, CORREL for statistical calculations.
 - Add-ons like Analysis ToolPak provide advanced statistical analysis tools such as regression, ANOVA, t-tests, and more.
 
-** 4. Data Visualization **
+**4. Data Visualization**
 
 Charts:
 - Create a variety of charts (e.g., Bar, Column, Line, Pie, Scatter, Histogram) to visually represent data.
@@ -61,14 +61,14 @@ Sparklines:
 Dashboards:
 - Combine various charts, tables, and visual elements to create interactive dashboards that summarize key metrics and insights.
 
-5. Automation & Scripting
+**5. Automation & Scripting**
 
 Macros:
 - Record or write VBA scripts to automate repetitive tasks and complex calculations.
 Power Automate:
 - Integrate Excel with Microsoft Power Automate for advanced automation and workflows.
 
-6. Reporting & Sharing
+**6. Reporting & Sharing**
 
 Printing & Exporting:
 - Print reports, create PDFs, or export data to different formats.
@@ -78,7 +78,7 @@ Collaboration:
 Power BI Integration:
 - Export data to Power BI for advanced analytics and reporting, connecting Excel data with broader datasets.
 
-7. Data Security
+**7. Data Security**
 
 Protect Worksheets/Workbooks:
 - Secure your data by protecting cells, sheets, and workbooks with passwords.
