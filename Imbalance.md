@@ -1,6 +1,6 @@
 Imbalanced distribution of data, often referred to as class imbalance, occurs when the classes in a dataset are not represented equally. This is particularly common in classification problems where one class (or a few classes) significantly outnumber the others. 
 
-### Examples of Imbalanced Data
+Examples of Imbalanced Data
 
 1. **Fraud Detection:** In a dataset where fraudulent transactions are rare compared to legitimate transactions.
 2. **Medical Diagnosis:** In medical datasets where a specific disease occurs infrequently compared to the healthy population.
