@@ -1,5 +1,5 @@
 High cardinality refers to columns in a dataset that have a large number of unique values. This term is often used in the context of categorical data but can apply to any type of data.
-
+ 
 ### Examples of High Cardinality
 - **Categorical Data:** A column that contains unique identifiers like social security numbers, product IDs, or email addresses. For instance, a column with customer IDs in an e-commerce dataset might have thousands or even millions of unique values.
 - **Text Data:** Columns with free text entries, such as names or comments.
