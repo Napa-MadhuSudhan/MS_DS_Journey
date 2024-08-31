@@ -1,7 +1,5 @@
 # SVM ( Support Vector Machines) :
 
-
-
 ## 1. Introduction
 
 Support Vector Machines (SVM) are supervised learning models used for classification and regression tasks. They are effective in high-dimensional spaces and are versatile due to the usage of different kernel functions.
@@ -148,14 +146,14 @@ Consider a simple 2D example with two classes of data points, represented by red
 In this case, you can draw a straight line that completely separates the two classes.
 
 ```
+```
 Class 1 (Red Circles): O
 Class 2 (Blue Squares): X
-
-  X  X  X
+ X  X  X
  O  O  O
 ```
 
-You can draw a line between the red circles and blue squares such that all the red circles are on one side and all the blue squares are on the other.
+### You can draw a line between the red circles and blue squares such that all the red circles are on one side and all the blue squares are on the other.
 
 #### Not Linearly Separable Data
 
@@ -164,7 +162,6 @@ In this case, no matter how you try to draw a straight line, you cannot separate
 ```
 Class 1 (Red Circles): O
 Class 2 (Blue Squares): X
-
     O
  X     O
     X
@@ -179,13 +176,15 @@ Here, you cannot draw a straight line that separates all red circles from all bl
 To better understand, consider these plots:
 
 #### Linearly Separable
+
 ```
    X  X  X
 -----------
  O  O  O
-```
 
+```
 #### Not Linearly Separable
+
 ```
     O
  X     O
@@ -193,7 +192,6 @@ To better understand, consider these plots:
  O     X
     O
 ```
-
 ### Real-World Example
 
 Imagine a dataset of animals where each point represents an animal's height and weight. Suppose you have two classes: Cats (C) and Dogs (D).
