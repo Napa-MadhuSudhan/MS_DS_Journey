@@ -1,7 +1,7 @@
 # Best Standard Process to Solve a Classification Problem
 
 The best standard process to solve a classification problem typically follows the CRISP-DM (Cross-Industry Standard Process for Data Mining) methodology, which is a widely accepted approach in the data science community. Here is a step-by-step guide:
-
+ 
 ### Step 1: Business Understanding
 
 - **Objective**: Define the project objectives and requirements from a business perspective.
